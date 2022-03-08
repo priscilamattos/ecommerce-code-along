@@ -1,9 +1,15 @@
-// HEADINGS:
-// h1: 28px;
-// h2: 40px;
-// h3: 54px;
-// h4: 34px;
-// h5: 14px;
+@import "./partials/variables";
 
-@import "variables";
-@import "typography";
+@import "./partials/typography";
+
+@import "./partials/nav";
+
+@import "./partials/baseStyles";
+
+@import "./partials/header";
+
+@import "./partials/footer";
+
+@import "./partials/sections.scss";
+
+@import "./partials/mediaQueries.scss";
